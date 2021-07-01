@@ -6,9 +6,18 @@ import Seo from "../components/seo"
 
 const SecondPage = () => (
   <Layout>
-    <Seo title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
+    <Seo title="PC2 Cleared!" />
+    <h1>On we go to PC3 and the unknown.</h1>
+    <p>Our future evolution
+    <StaticImage
+      src="../images/robo-evolution.PNG"
+      width={300}
+      quality={95}
+      formats={["AUTO", "WEBP", "AVIF"]}
+      alt="robo-evolution"
+      style={{ marginBottom: `1.45rem` }}
+    />
+    </p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
