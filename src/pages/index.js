@@ -8,11 +8,11 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to fintech_b10</p>
-    <p>Off we go on our roller-coaster journey!</p>
+    <h1>Hi Classmates!</h1>
+    <p>Welcome to fintech_b10 roller-coaster journey!</p>
+    <p>A step a bite (ouch!) at a time</p>
     <StaticImage
-      src="../images/gatsby-astronaut.png"
+      src="../images/robo-evolution.PNG"
       width={300}
       quality={95}
       formats={["AUTO", "WEBP", "AVIF"]}
