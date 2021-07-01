@@ -12,7 +12,7 @@ const IndexPage = () => (
     <p>Welcome to fintech_b10 roller-coaster journey!</p>
     <p>A step a bite (ouch!) at a time</p>
     <StaticImage
-      src="../images/robo-evolution.PNG"
+      src="../images/robo-evolution.png"
       width={300}
       quality={95}
       formats={["AUTO", "WEBP", "AVIF"]}
